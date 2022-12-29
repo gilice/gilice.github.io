@@ -14,7 +14,9 @@ jobs:
      - name: Checkout main
        uses: actions/checkout@v3.0.0
      - name: build
-       run: nix build
+       run: |
+        nix build
+        cp --recursive --dereference --no-preserve=mode,ownership result ownresult
       
      - name: Setup Pages
        uses: actions/configure-pages@v2
@@ -22,7 +24,7 @@ jobs:
        uses: actions/upload-pages-artifact@v1
        with:
         # Upload built files
-        path: 'result'
+        path: './ownresult'
      - name: Deploy to GitHub Pages
        id: deployment
        uses: actions/deploy-pages@v1
