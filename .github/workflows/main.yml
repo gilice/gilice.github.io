@@ -1,9 +1,8 @@
-name: Push site
-
 on: 
  push:
   branches: master
  
+permissions: write-all
 jobs:
   build:
     name: Publish site
@@ -15,3 +14,4 @@ jobs:
       uses: shalzz/zola-deploy-action@v0.16.1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
