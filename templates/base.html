@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Gilice's page</title>
+</head>
+
+<body>
+	<h1> <a href = "{{ get_url(path='')}}"> Gilice's page</a></h1>
+	<hr>
+  <section class="section">
+    <div class="container">
+      {% block content %} {% endblock %}
+    </div>
+  </section>
+
+	<style>
+		@font-face {
+			font-family: "DM Sans";
+			src: url("{{ get_url(path = 'fonts/DMSans-Regular.ttf')}}");
+		}
+
+
+		h1,h2,h3,h4,h5,h6 {
+			font-family: "DM Sans" !important;
+		}
+	
+
+		body {
+			font-family: "Cantarell", "sans-serif";
+			line-height: 1.4;
+			font-size: 1.2em;
+			max-width: 80%;
+			text-align: justify;
+			margin: 5% auto;
+		}
+		
+		div.footer {
+			display: flex;
+			justify-content: end;
+		}
+
+		hr {
+			border: 1px solid #eee;
+		}
+
+		blockquote {
+		  font-style: italic;
+		  background-color: #eee;
+		  padding: 0.5em 0.5em;
+		  margin-left: 0;
+		}
+	
+		.footnote-definition:nth-of-type(1) {	
+			border-top: solid 1px #eee;
+			padding-top: 1em;
+		}
+
+		.footnote-definition {
+			display: flex;
+			align-items: center;
+
+		}
+		.footnote-definition-label {
+			padding-right: 1em;
+		}		
+	</style>
+	<hr>
+	<div class = "footer">
+	<small>Headline font is DM Sans, licensed under the <a href="./fonts/OFL.txt">OFL</a> </small>
+	</div>
+</body>
+
+</html>
