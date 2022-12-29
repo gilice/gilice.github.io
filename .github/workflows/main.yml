@@ -1,7 +1,8 @@
 name: Push site
 
 on: 
- push
+ push:
+  branches: master
  
 jobs:
   build:
