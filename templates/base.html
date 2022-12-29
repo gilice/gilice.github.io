@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>Gilice's page</title>
+{% block rss %}
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="{{ get_url(path='atom.xml', trailing_slash=false) }}">
+{% endblock %}
 </head>
 
 <body>
@@ -72,7 +75,9 @@
 	</style>
 	<hr>
 	<div class = "footer">
-	<small>Headline font is DM Sans, licensed under the <a href="./fonts/OFL.txt">OFL</a> </small>
+		<small>
+		<a href="{{get_url(path='atom.xml')}}">Feed</a> | 
+		Headline font is DM Sans, licensed under the <a href="./fonts/OFL.txt">OFL</a> </small>
 	</div>
 </body>
 
