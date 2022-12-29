@@ -16,6 +16,10 @@
   </section>
 
 	<style>
+		:root {
+			--divider: #bdbdbd;
+		}
+		
 		@font-face {
 			font-family: "DM Sans";
 			src: url("{{ get_url(path = 'fonts/DMSans-Regular.ttf')}}");
@@ -42,18 +46,18 @@
 		}
 
 		hr {
-			border: 1px solid #eee;
+			border: 1px solid var(--divider);
 		}
 
 		blockquote {
 		  font-style: italic;
-		  background-color: #eee;
+		  background-color: #e0e0e0;
 		  padding: 0.5em 0.5em;
 		  margin-left: 0;
 		}
 	
 		.footnote-definition:nth-of-type(1) {	
-			border-top: solid 1px #eee;
+			border-top: solid 1px var(--divider);
 			padding-top: 1em;
 		}
 

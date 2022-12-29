@@ -44,24 +44,24 @@ Summed up, I'd advise anyone that comes to me the following:
 
 [^1]: mostly, from what I've seen
 
-[^2]: https://en.m.wikipedia.org/wiki/Meme#CITEREFDawkins1989
+[^2]: [https://en.m.wikipedia.org/wiki/Meme#CITEREFDawkins1989](https://en.m.wikipedia.org/wiki/Meme#CITEREFDawkins1989)
 
-[^3]: https://www.urbandictionary.com/define.php?term=mid
+[^3]: [https://www.urbandictionary.com/define.php?term=mid](https://www.urbandictionary.com/define.php?term=mid)
 
-[^4]: https://knowyourmeme.com/memes/mid-internet-slang
+[^4]: [https://knowyourmeme.com/memes/mid-internet-slang](https://knowyourmeme.com/memes/mid-internet-slang)
 
 [^5]: pun intended
 
-[^6]: https://www.urbandictionary.com/define.php?term=Not%20Like%20Other%20Girls
+[^6]: [https://www.urbandictionary.com/define.php?term=Not%20Like%20Other%20Girls](https://www.urbandictionary.com/define.php?term=Not%20Like%20Other%20Girls)
 
-[^7]: https://www.reddit.com/r/notliketheothergirls/
+[^7]: [https://www.reddit.com/r/notliketheothergirls/](https://www.reddit.com/r/notliketheothergirls/)
 
-[^8]: https://en.wikipedia.org/wiki/Golden_mean\_(philosophy)
+[^8]: [https://en.wikipedia.org/wiki/Golden_mean\_(philosophy)](https://en.wikipedia.org/wiki/Golden_mean\_(philosophy))
 
-[^9]: https://en.wikipedia.org/wiki/Virtue_ethics#History_of_virtue
+[^9]: [https://en.wikipedia.org/wiki/Virtue_ethics#History_of_virtue](https://en.wikipedia.org/wiki/Virtue_ethics#History_of_virtue)
 
 [^10]: I've been meaning to write an essay titled *Progressive Overload Everything* similar to this one, but haven't found the time for it yet
 
-[^11]: https://en.wikipedia.org/wiki/Sophist#Criticism
+[^11]: [https://en.wikipedia.org/wiki/Sophist#Criticism](https://en.wikipedia.org/wiki/Sophist#Criticism)
 
-[^12]: https://www.psychologytoday.com/us/blog/shift-mind/200811/the-problem-perfection
+[^12]: [https://www.psychologytoday.com/us/blog/shift-mind/200811/the-problem-perfection](https://www.psychologytoday.com/us/blog/shift-mind/200811/the-problem-perfection)
