@@ -8,10 +8,21 @@ jobs:
     name: Publish site
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout main
-      uses: actions/checkout@v3.0.0
-    - name: Build and deploy
-      uses: shalzz/zola-deploy-action@v0.16.1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    
+     - uses: nixbuild/nix-quick-install-action@v21
+       with:
+        nix_conf: experimental-features = nix-command flakes
+     - name: Checkout main
+       uses: actions/checkout@v3.0.0
+     - name: build
+       run: nix build
+      
+     - name: Setup Pages
+       uses: actions/configure-pages@v2
+     - name: Upload artifact
+       uses: actions/upload-pages-artifact@v1
+       with:
+        # Upload built files
+        path: 'result'
+     - name: Deploy to GitHub Pages
+       id: deployment
+       uses: actions/deploy-pages@v1
